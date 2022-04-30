@@ -7,12 +7,12 @@
 }
 
 :root{
-    --main-color: #f0f;
+    --main-color: #54b689;
     --main-text-color: #fff;
     --border-color: #999;
-    --bio-bg-color: black;
+    --bio-bg-color: #1e2e3a;
     --bio-border-color: #293544;
-    --about-bg-color: #FF00FF;
+    --about-bg-color: #111821;
 }
 
 .highlight{
@@ -37,9 +37,8 @@
 #about-container{
     flex: 1 1 80%;
     min-height: 100vh;
-    background: linear-gradient(to bottom, black, #112166, #B4DBFD );
+    background-color: var(--about-bg-color);
     padding: 50px;
-    
 }
 
 #bio-container h2{
